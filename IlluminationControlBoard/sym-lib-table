@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ATMARS_ILLUMINATION_PROJECT")(type "KiCad")(uri "${KIPRJMOD}/ATMARS_ILLUMINATION_PROJECT.kicad_sym")(options "")(descr ""))
+)
