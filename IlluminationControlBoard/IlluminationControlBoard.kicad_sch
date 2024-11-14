@@ -824,6 +824,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 81.28) (xy 55.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a941e0b-212a-4a30-8b5a-fb233b199d6a")
+	)
+	(wire
+		(pts
 			(xy 26.67 55.88) (xy 33.02 55.88)
 		)
 		(stroke
@@ -834,6 +844,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 77.47) (xy 31.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34dc6abc-07f7-412a-84c2-0ffeba5ea19d")
+	)
+	(wire
+		(pts
 			(xy 30.48 39.37) (xy 33.02 39.37)
 		)
 		(stroke
@@ -841,6 +861,16 @@
 			(type default)
 		)
 		(uuid "3dce1def-20be-4cc1-92f9-c1428ea88562")
+	)
+	(wire
+		(pts
+			(xy 27.94 82.55) (xy 31.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4399f4d6-569e-4202-91a4-fa2ed96cb03e")
 	)
 	(wire
 		(pts
@@ -904,6 +934,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 78.74) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac60df15-7f31-44ad-84c7-22e56e266c8b")
+	)
+	(wire
+		(pts
 			(xy 27.94 31.75) (xy 33.02 31.75)
 		)
 		(stroke
@@ -911,6 +951,26 @@
 			(type default)
 		)
 		(uuid "af710c8d-b58d-4cca-9fdc-589f797484ee")
+	)
+	(wire
+		(pts
+			(xy 52.07 92.71) (xy 55.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b647df37-7b09-4c61-8f26-1b8249898c33")
+	)
+	(wire
+		(pts
+			(xy 52.07 95.25) (xy 55.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a7a408-29ac-4101-9b37-c6dc3f4a09c1")
 	)
 	(wire
 		(pts
@@ -942,6 +1002,26 @@
 		)
 		(uuid "e4d261a0-dcbd-422d-a82f-f8d1a787d167")
 	)
+	(wire
+		(pts
+			(xy 26.67 91.44) (xy 31.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5da42b3-d4ab-40c0-b5df-3e069d03cebe")
+	)
+	(wire
+		(pts
+			(xy 27.94 96.52) (xy 31.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcd9f9c-73de-4bdd-8354-c224a1ff7c7f")
+	)
 	(global_label "L2_MINUS"
 		(shape input)
 		(at 27.94 29.21 180)
@@ -964,6 +1044,28 @@
 			)
 		)
 	)
+	(global_label "L2_MINUS"
+		(shape input)
+		(at 55.88 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bcb0b33-620f-4984-8783-526c50b95f09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.9971 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12V"
 		(shape input)
 		(at 25.4 45.72 180)
@@ -982,6 +1084,72 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L1_PWM"
+		(shape input)
+		(at 27.94 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f3d1421-6f4c-43e6-9c56-2e8b16032cc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L1_MINUS"
+		(shape input)
+		(at 55.88 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "531c600d-269c-4880-9744-193404bef4d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.9971 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L2_PLUS"
+		(shape input)
+		(at 55.88 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64a14360-e2c7-4c33-b96c-023341ff11b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.9085 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1093,6 +1261,117 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "L1_PWM"
+		(shape input)
+		(at 27.94 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf209963-a5e0-4ddc-97d7-0f0778a72f79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L1_PLUS"
+		(shape input)
+		(at 55.88 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f79cc081-5865-4d0b-b84a-ada2eaa2837f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.9085 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "032b2023-d79f-43ca-9232-67e115a8e1a5")
+		(property "Reference" "#PWR04"
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc79d3ea-8fb0-49f5-831d-6ae69875fb2b")
+		)
+		(instances
+			(project "IlluminationControlBoard"
+				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
+					(reference "#PWR04")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1238,16 +1517,15 @@
 	)
 	(symbol
 		(lib_id "ATMARS_ILLUMINATION_PROJECT:DWE_LED_DRIVER")
-		(at 39.37 100.33 0)
+		(at 41.91 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d1bab6f-e346-43d2-9f50-656e907abf34")
 		(property "Reference" "U2"
-			(at 39.37 92.71 0)
+			(at 41.91 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1533,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 39.37 95.25 0)
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 102.87 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1272,7 +1550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 102.87 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,7 +1559,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 102.87 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,16 +1593,15 @@
 	)
 	(symbol
 		(lib_id "ATMARS_ILLUMINATION_PROJECT:DWE_LED_DRIVER")
-		(at 38.1 82.55 0)
+		(at 41.91 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "890f0140-9389-4fe7-99f0-d1b4a54aec7c")
 		(property "Reference" "U1"
-			(at 38.1 74.93 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1609,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 38.1 77.47 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 85.09 0)
+			(at 45.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 85.09 0)
+			(at 45.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 85.09 0)
+			(at 45.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,6 +1662,73 @@
 			(project ""
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8ff615b-be4a-40c5-8b7e-159daf9ead0d")
+		(property "Reference" "#PWR03"
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17724974-d718-4494-9637-d22dc67600ba")
+		)
+		(instances
+			(project "IlluminationControlBoard"
+				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
