@@ -352,7 +352,7 @@
           "group_by": false,
           "label": "DigikeyPartNumber",
           "name": "DigikeyPartNumber",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
