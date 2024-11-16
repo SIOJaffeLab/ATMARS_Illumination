@@ -132,7 +132,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at 0 0 0)
 					(length 7.62)
 					(name "SW"
@@ -258,7 +258,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "SW"
@@ -2033,17 +2033,6 @@
 		)
 		(uuid "36c1a83b-f78f-4f53-a5cc-2c1866a70104")
 	)
-	(label "AGND"
-		(at 186.69 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9082d1e3-ecf6-431c-8d02-f3409033f492")
-	)
 	(global_label "15V"
 		(shape input)
 		(at 228.6 41.91 0)
@@ -2098,7 +2087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "103cf3a4-649d-4079-8c61-f1c1771131d0")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 101.6 83.82 0)
 			(effects
 				(font
@@ -2148,7 +2137,7 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1921a2c3-d995-4176-a5e1-e5afa8231528")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 177.8 107.95 0)
 			(effects
 				(font
@@ -2292,7 +2281,7 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2384,7 +2373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2677e3b3-b2ea-4b4f-af95-21019c9f72a2")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 185.3395 50.8 90)
 			(effects
 				(font
@@ -2445,7 +2434,7 @@
 		(instances
 			(project ""
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2461,7 +2450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d83a580-a0e2-4820-92a2-cbbc15ea9920")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 206.121 48.9528 0)
 			(effects
 				(font
@@ -2524,7 +2513,7 @@
 		(instances
 			(project ""
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2540,7 +2529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bdc36af-113b-41b8-acbf-13917c235103")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 89.281 76.2578 0)
 			(effects
 				(font
@@ -2603,7 +2592,7 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2741,7 +2730,7 @@
 			)
 		)
 		(property "DigikeyPartNumber" "296-39426-1-ND"
-			(at 105.41 58.42 0)
+			(at 104.648 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91049097-51ef-436f-8c82-1e274dc6566b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -2863,7 +2852,7 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2958,7 +2947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b36ab787-37a3-40ef-a275-c45fdbd61b80")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR012"
 			(at 209.55 68.58 0)
 			(effects
 				(font
@@ -3008,7 +2997,7 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "#PWR06")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3024,7 +3013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c40b84-b81f-4aad-8d73-0785cdb9d8d9")
-		(property "Reference" "C15"
+		(property "Reference" "C4"
 			(at 173.101 87.6878 0)
 			(effects
 				(font
@@ -3087,7 +3076,74 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "C15")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d44963fe-0444-4582-9f0f-4041e3ab2855")
+		(property "Reference" "#PWR011"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.865 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed26dacf-e1b1-444e-bf88-9ebe648cb452")
+		)
+		(instances
+			(project "IlluminationControlBoard"
+				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3103,7 +3159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5a7a2ba-beba-4254-b351-97ed16396dbc")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 177.8 74.8495 90)
 			(effects
 				(font
@@ -3164,7 +3220,7 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3180,7 +3236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dab08761-185d-4bf3-a939-a0237f96026f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 59.69 72.39 0)
 			(effects
 				(font
@@ -3230,7 +3286,7 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3246,7 +3302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3b4a708-136c-42c7-82da-d8252771a72e")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 177.8 65.9595 90)
 			(effects
 				(font
@@ -3307,7 +3363,7 @@
 		(instances
 			(project ""
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3402,7 +3458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0281897-2065-4deb-b1a7-4222204f74f0")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 172.72 66.04 0)
 			(effects
 				(font
@@ -3452,7 +3508,7 @@
 		(instances
 			(project ""
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3468,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff2f2717-b9a6-4cf9-a065-b3e0bc5a3382")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 218.821 49.5878 0)
 			(effects
 				(font
@@ -3531,7 +3587,7 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3547,7 +3603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff9da1df-56eb-4a47-99a3-74c486c5afe4")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 189.611 87.6878 0)
 			(effects
 				(font
@@ -3610,7 +3666,7 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2/c3028b56-f565-42f5-ab14-a6a5b2effaaf"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)

@@ -283,7 +283,7 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at 0 0 0)
 				(length 7.62)
 				(name "SW"
@@ -409,7 +409,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "SW"

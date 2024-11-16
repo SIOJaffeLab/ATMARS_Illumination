@@ -562,6 +562,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(wire
 		(pts
@@ -655,6 +751,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 185.42) (xy 17.78 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1cd270-5ceb-43a9-ae90-450170056aab")
+	)
+	(wire
+		(pts
 			(xy 27.94 20.32) (xy 33.02 20.32)
 		)
 		(stroke
@@ -695,6 +801,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 185.42) (xy 27.94 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9f5440-2fe0-4327-a4fc-c7e4b390d511")
+	)
+	(wire
+		(pts
 			(xy 52.07 78.74) (xy 55.88 78.74)
 		)
 		(stroke
@@ -732,6 +848,16 @@
 			(type default)
 		)
 		(uuid "c7a7a408-29ac-4101-9b37-c6dc3f4a09c1")
+	)
+	(wire
+		(pts
+			(xy 38.1 185.42) (xy 38.1 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce52f883-d7fe-4794-907b-632779b57a1f")
 	)
 	(wire
 		(pts
@@ -786,6 +912,28 @@
 		(uuid "0f6e7fc7-52d3-42ce-a6bc-a480c316c9f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.4472 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "15V"
+		(shape input)
+		(at 38.1 189.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20febe12-b2d3-4c88-a174-27fca0c04b95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 195.7228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,28 +1000,6 @@
 		(uuid "4d206674-b331-4f31-8c04-989f97e15d31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 22.7172 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L1_PWM"
-		(shape input)
-		(at 27.94 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f3d1421-6f4c-43e6-9c56-2e8b16032cc4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.5768 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,6 +1097,28 @@
 			)
 		)
 	)
+	(global_label "12V"
+		(shape input)
+		(at 27.94 189.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d85c399-4731-4c05-9875-4c96b5f18c60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.94 195.7228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "L1_PLUS"
 		(shape input)
 		(at 27.94 22.86 180)
@@ -984,6 +1132,28 @@
 		(uuid "873f38cf-79eb-42a9-9e25-cefaa2a049cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.9115 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L2_PWM"
+		(shape input)
+		(at 27.94 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a36e913-ded4-412b-a5ab-57fcb50d93ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,6 +1274,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 27.94 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02469e1a-9f45-40cc-84f1-3795fd34fe8c")
+		(property "Reference" "#FLG02"
+			(at 27.94 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 27.94 181.2869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 27.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af7c8cdd-142c-42ea-8a32-5c271609de7b")
+		)
+		(instances
+			(project "IlluminationControlBoard"
+				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 26.67 91.44 270)
 		(unit 1)
@@ -1171,6 +1407,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 38.1 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05f83df9-b8a3-4dec-9e9e-560f1ce34ffb")
+		(property "Reference" "#FLG03"
+			(at 38.1 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 38.1 181.2869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 38.1 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b67ed654-4817-47d0-9c77-2bcde52c04ff")
+		)
+		(instances
+			(project "IlluminationControlBoard"
+				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 38.1 58.42 0)
 		(unit 1)
@@ -1198,7 +1500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_SL_171971-0003_1x03_P2.54mm_Vertical"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -1225,7 +1527,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPartNumber" ""
+		(property "DigikeyPartNumber" "  WM4825-ND"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -1247,6 +1549,72 @@
 			(project ""
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 17.78 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3777b0ed-5a57-4f0f-bab2-75861b210594")
+		(property "Reference" "#PWR01"
+			(at 17.78 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 193.3631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a52a4c10-1617-4009-b387-43ae9a6f24c5")
+		)
+		(instances
+			(project "IlluminationControlBoard"
+				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1314,6 +1682,72 @@
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 17.78 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "778e1156-7366-4645-b9b8-313fda7e50e0")
+		(property "Reference" "#FLG01"
+			(at 17.78 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 17.78 181.2869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 17.78 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "858b0ee9-cf6f-4fb9-8491-0f638a892299")
+		)
+		(instances
+			(project ""
+				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1566,7 +2000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ade9565c-0144-404a-a58d-d630eaaf2e0d")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 40.132 41.9678 0)
 			(effects
 				(font
@@ -1629,7 +2063,7 @@
 		(instances
 			(project ""
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1645,7 +2079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b58a9f7f-9b56-41a1-8947-493a8c7d76f0")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 40.64 29.2099 0)
 			(effects
 				(font
@@ -1663,7 +2097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_SL_171971-0002_1x02_P2.54mm_Vertical"
 			(at 38.1 29.21 0)
 			(effects
 				(font
@@ -1690,7 +2124,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPartNumber" ""
+		(property "DigikeyPartNumber" "WM4800-ND"
 			(at 38.1 29.21 0)
 			(effects
 				(font
@@ -1708,7 +2142,7 @@
 		(instances
 			(project "IlluminationControlBoard"
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1742,7 +2176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_SL_171971-0002_1x02_P2.54mm_Vertical"
 			(at 38.1 20.32 0)
 			(effects
 				(font
@@ -1769,7 +2203,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPartNumber" ""
+		(property "DigikeyPartNumber" "WM4800-ND"
 			(at 38.1 20.32 0)
 			(effects
 				(font
@@ -1803,7 +2237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f241026c-9dcb-417a-80f5-8b0460a8387b")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 22.86 40.64 0)
 			(effects
 				(font
@@ -1854,7 +2288,7 @@
 		(instances
 			(project ""
 				(path "/475a05fd-52d9-442f-b4d1-e854012dfab2"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
